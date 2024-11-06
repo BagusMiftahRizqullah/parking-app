@@ -5,11 +5,13 @@ import (
 	"fmt"
 )
 
+// storage sementara parking lot
 type ParkingLot struct {
 	Capacity int
 	Slots    []*ParkingSlot
 }
 
+// storage sementara mobil
 type ParkingSlot struct {
 	Number int
 	Car    *Car
