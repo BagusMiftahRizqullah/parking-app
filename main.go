@@ -1,12 +1,12 @@
 package main
 
 import (
-	"bufio"
-	"fmt"
-	"os"
-	"parking-app/handlers"
-	"strconv"
-	"strings"
+	"bufio"                // for reading file
+	"fmt"                  // console system
+	"os"                   // for reading file
+	"parking-app/handlers" // importing handlers
+	"strconv"              // for parsing input
+	"strings"              // for parsing input
 )
 
 func main() {
